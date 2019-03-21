@@ -23,8 +23,8 @@ export default class Tour extends Component {
               <i className="fas fa-caret-square-down" />
             </span>
           </h5>
+          <p>{info}</p>
         </div>
-        <p>{info}</p>
       </article>
     );
   }
